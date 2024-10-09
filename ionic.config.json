@@ -1,0 +1,7 @@
+{
+  "name": "app-toctus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
