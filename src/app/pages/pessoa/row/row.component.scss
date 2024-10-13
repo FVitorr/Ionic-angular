@@ -1,0 +1,18 @@
+.no-break {
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+  }
+  
+  .no-break.expanded {
+    white-space: normal;
+    overflow: visible;  
+    text-overflow: clip; 
+  }
+  
+
+  .ion-card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

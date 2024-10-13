@@ -1,0 +1,23 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>
+      <input type="checkbox" placeholder="Pesquisar" />
+      {{ nome }}
+    </ion-card-title>
+    <ion-card-subtitle>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="no-break" (click)="expandText('nome')">
+            {{ expandedText === 'nome' ? nome : nome }}
+          </ion-col>
+          <ion-col class="no-break" (click)="expandText('endereco')">
+            {{ expandedText === 'endereco' ? endereco : endereco }}
+          </ion-col>
+          <ion-col class="no-break" (click)="expandText('telefone')">
+            {{ expandedText === 'telefone' ? telefone : telefone }}
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-subtitle>
+  </ion-card-header>
+</ion-card>

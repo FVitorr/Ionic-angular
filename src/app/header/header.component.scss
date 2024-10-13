@@ -1,0 +1,18 @@
+#logo{
+    background-image: url('../../assets/LOGO_TOCTUS-300x80.png.webp');
+    
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+ion-header{
+    height: 100px;
+}
+
+ion-toolbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
